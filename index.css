@@ -1,0 +1,286 @@
+@import url("./Assets/fonts/stylesheet.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Urbane", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #171c1a;
+  color: #fff9f3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main {
+  padding-top: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo > img {
+  width: 51.2px;
+  height: 40px;
+}
+
+.middle-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 80px 24px 0 24px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 255;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-cont {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cont > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #14a26b;
+  padding: 16px 24px;
+}
+
+.btn-cont > a > img {
+  width: 24px;
+}
+
+footer {
+  margin-top: 339px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-1 > div {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px 12px;
+}
+
+.foot-1-1 {
+  justify-content: center;
+  display: flex;
+}
+
+.green {
+  color: #14a26b;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px !important;
+}
+
+.icons {
+  width: 12px;
+  height: 12px;
+}
+
+.social-icons {
+  width: 16px;
+  height: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1024px) {
+  .blur {
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .social-icons {
+    width: 20px;
+    height: 20px;
+  }
+  .icons {
+    width: 16px;
+    height: 16px;
+  }
+  main {
+    padding-top: 64px;
+  }
+
+  .logo > img {
+    width: auto;
+    height: auto;
+  }
+
+  .middle-text {
+    padding: 120px 20px 0 20px;
+    gap: 24px;
+  }
+
+  .btn-cont {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-cont > a {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #14a26b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
+  .btn-cont > a > img {
+    width: 40px;
+  }
+
+  h1 {
+    max-width: 1104px;
+    font-style: normal;
+    font-weight: 255;
+    font-size: 80px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  h6 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    margin-top: 174px;
+    padding: 24px 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .foot-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .foot-1 > div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 8px 12px;
+  }
+
+  .foot-1-1 {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .green {
+    color: #14a26b;
+  }
+
+  .social-media {
+    display: flex;
+    gap: 20px !important;
+  }
+}
