@@ -120,22 +120,22 @@ export default function Home() {
         </section>
 
         <section className="flex flex-col lg:flex-row gap-5 pt-112x">
-          <div className="card">
-            <div className="cardH w-full h-full relative border one">
+          <div className="card one">
+            <div className="cardH w-full h-full relative border">
               <Image className='object-cover oneI obj w-full h-full' src={h1} alt="Portfolio" quality={100} priority  />
               <div className="overlayImg"></div>
             </div>
             <p className="textImg">Portfolio</p>
           </div>
-          <div className="card">
-            <div className="cardH w-full h-full relative border two">
+          <div className="card two">
+            <div className="cardH w-full h-full relative border">
               <Image className='object-cover twoI object-top w-full h-full' src={h2} alt="Studio" quality={100} priority  />
               <div className="overlayImg"></div>
             </div>
             <p className="textImg">Studio</p>
           </div>
-          <div className="card">
-            <div className="cardH w-full h-full relative border three">
+          <div className="card three">
+            <div className="cardH w-full h-full relative border">
               <Image className='object-cover  threeI w-full relative h-full object-right' src={h3} alt="Community" quality={100} priority  />
               <div className="overlayImg"></div>
             </div>

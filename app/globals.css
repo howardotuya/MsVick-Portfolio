@@ -56,6 +56,10 @@ body {
   height: 100%;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .cardH {
   height: 264px;
   width: 100%;
