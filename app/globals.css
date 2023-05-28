@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("../public/bl-melody-mono/style.css");
+@import url("../public/micrac/stylesheet.css");
+
+body {
+  background: #1b1b1b;
+  color: #fff9f3;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.headi {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110%;
+  color: #fff9f3;
+}
+
+.headp {
+  max-width: 632px;
+  font-family: "BL Melody Mono Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff9f3;
+}
+
+.pt-112 {
+  padding-top: 112px;
+}
+.pt-112x {
+  padding-top: 80px;
+}
+
+.footp {
+  font-family: "BL Melody Mono Regular";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 160%;
+  color: #fff9f3;
+  margin-top: 112px;
+  padding-top: 54px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cardH {
+  height: 264px;
+  width: 100%;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 300ms ease-out;
+  border-color: #fff9f3;
+}
+
+.overlayImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+  opacity: 0.8;
+}
+
+.textImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, .1)
+}
+
+#sidebar-container {
+  position: relative;
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+  background: #14a26b;
+}
+
+.sidebar-text {
+  font-family: "BL Melody Mono Regular";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+}
+
+@media only screen and (min-width: 1400px) {
+  .pt-112x {
+    padding-top: 112px;
+  }
+  .footp {
+    padding-top: 53px;
+    padding-bottom: 40px;
+    margin: 0;
+  }
+
+  .headi {
+    font-size: 80px;
+  }
+
+  .headp {
+    font-size: 16px;
+  }
+
+  .cardH {
+    max-height: 264px;
+    height: 264px;
+  }
+
+  body {
+    background: #1e1e1e;
+    padding: 0 112px;
+    max-width: 1440px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  body {
+    background: #1e1e1e;
+    padding: 0;
+    max-width: 1440px;
+  }
+  .sidebar {
+    display: none;
+    position: absolute;
+  }
+}
