@@ -41,7 +41,7 @@ body {
 .footp {
   font-family: "BL Melody Mono Regular";
   font-style: normal;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 160%;
   color: #fff9f3;
   margin-top: 112px;
@@ -122,6 +122,9 @@ body {
   .pt-112x {
     padding-top: 112px;
   }
+  .footp {
+    font-size: 12px;
+  }  
   .footp {
     padding-top: 53px;
     padding-bottom: 40px;
