@@ -9,6 +9,7 @@ body {
   color: #fff9f3;
   padding: 0 20px;
   margin: 0 auto;
+  font-family: "BL Melody Mono Regular";
   width: 100%;
 }
 
@@ -23,7 +24,6 @@ body {
 
 .headp {
   max-width: 632px;
-  font-family: "BL Melody Mono Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -39,7 +39,6 @@ body {
 }
 
 .footp {
-  font-family: "BL Melody Mono Regular";
   font-style: normal;
   font-size: 10px;
   line-height: 160%;
@@ -115,14 +114,106 @@ body {
 }
 
 .sidebar-text {
-  font-family: "BL Melody Mono Regular";
   font-style: normal;
   font-size: 32px;
   line-height: 38px;
   letter-spacing: -0.04em;
 }
 
+.bg-text {
+  display: none;
+  font-family: 'MicraC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 140%;
+  color: rgba(255, 249, 243, 0.04);
+}
+
+.otbgt {
+  font-family: 'MicraC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  color: #FFF9F3;
+}
+
+.ab-cont {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.greg > p {
+  padding: 16px 24px;
+  border: 1px solid #fff9f3;
+  text-transform: uppercase;
+}
+
+.borderr {
+  border: 1px solid #fff9f3;
+  font-family: "BL Melody Mono Light";
+}
+
+.borderr span{
+  font-family: "BL Melody Mono SemiBold";
+}
+
+.pt-200 {
+  padding-top: 112px;
+}
+
+.mx-600 {
+  height: 100%;
+  max-height: 500px;
+}
+
+.dax {
+  width: 100%;
+}
+
+.bgmilk {
+  background-color: #FFF9F3;
+  padding: 16px 24px; 
+  color: #1B1B1B;
+}
+
+.pt-112a {
+  padding-top: 64px;
+}
+
 @media only screen and (min-width: 1400px) {
+
+  .mx-600 {
+    height: 100%;
+    max-height: 600px;
+  }
+
+  .dax {
+    width: calc((100% - 20px) / 2);
+  }
+  .pt-200 {
+    padding-top: 200px;
+  }
+
+  .ab-cont {
+    padding-left: 103px;
+    padding-right: 103px;
+  }
+  
+  .pt-112a {
+    padding-top: 112px;
+  }
+
+  .bg-text {
+    display: block;
+  }
+  
+  .otbgt {
+    font-size: 32px;
+    position: absolute;
+  }
+  
   .pt-112x {
     padding-top: 112px;
   }
