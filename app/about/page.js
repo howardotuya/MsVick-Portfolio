@@ -67,7 +67,7 @@ export default function Home() {
 
         <section className="flex flex-col xl:items-stretch items-center justify-center lg:flex-row pt-8 lg:pt-20 gap-5">
           <div className="dax borderr p-6 gap-8 lg:p-10 lg:gap-10 flex flex-col">
-            <p>I'm <span>Victoria Alli-Johnson</span>, a <span>UI/UX/Product Designer</span> who believes in designing with a deep understanding of human psychology. I'm fascinated by how we connect, interpret, and respond to experiences, whether digital or physical.</p>
+            <p>I&apos;m <span>Victoria Alli-Johnson</span>, a <span>UI/UX/Product Designer</span> who believes in designing with a deep understanding of human psychology. I&aposm fascinated by how we connect, interpret, and respond to experiences, whether digital or physical.</p>
             <p>With a background primarily in early-stage startups and cross-functional teams, I specialize in crafting adaptive, flexible, intuitive, and useful user experiences for both businesses and customers.</p>
             <p>I bring additional skills in product management, enabling me to understand product roadmaps, PRDs, and FRS. Throughout my process, I prioritize clear communication and comprehensive documentation from start to finish</p>
           </div>
