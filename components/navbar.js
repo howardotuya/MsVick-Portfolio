@@ -26,7 +26,6 @@ const popuphandler = () => {
 function Navbar() {
   return (
     <>
-        
       <nav className="z-50 sidebar justify-end items-end overflow-hidden">
         <div
           id="sidebar-container"
@@ -54,7 +53,7 @@ function Navbar() {
               />
               <p className="sidebar-text">About</p>
             </Link>
-            <div className="flex items-center gap-4">
+            <Link href="/" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav3}
@@ -63,8 +62,8 @@ function Navbar() {
                 priority
               />
               <p className="sidebar-text">Portfolio</p>
-            </div>
-            <div className="flex items-center gap-4">
+            </Link>
+            <Link href="/" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav4}
@@ -73,8 +72,8 @@ function Navbar() {
                 priority
               />
               <p className="sidebar-text">Studio</p>
-            </div>
-            <div className="flex items-center gap-4">
+            </Link>
+            <Link href="/" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav5}
@@ -83,8 +82,8 @@ function Navbar() {
                 priority
               />
               <p className="sidebar-text">Community</p>
-            </div>
-            <div className="flex items-center gap-4">
+            </Link>
+            <Link href="/contact" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav6}
@@ -93,7 +92,7 @@ function Navbar() {
                 priority
               />
               <p className="sidebar-text">Contact</p>
-            </div>
+            </Link>
           </div>
         </div>
       </nav>

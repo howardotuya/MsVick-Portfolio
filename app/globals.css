@@ -139,6 +139,7 @@ body {
   color: #FFF9F3;
 }
 
+
 .ab-cont {
   padding-left: 0;
   padding-right: 0;
@@ -182,7 +183,45 @@ body {
   padding-top: 64px;
 }
 
+.contact-img {
+  width: 100%;
+  max-width: 288px;
+  height: auto;
+}
+
+.micrac {
+  font-family: 'MicraC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  color: #FFF9F3;
+}
+
+.bf600 {
+  font-family: 'BL Melody Mono SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFF9F3;
+}
+
 @media only screen and (min-width: 1400px) {
+
+  .micrac {
+    font-family: 'MicraC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 140%;
+    color: #FFF9F3;
+  }
+
+  .contact-img {
+    max-width: 392px;
+  }
 
   .mx-600 {
     height: 100%;

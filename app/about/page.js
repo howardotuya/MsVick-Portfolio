@@ -50,9 +50,9 @@ export default function Home() {
 
           <div className="pt-20 ab-cont text-center">
             <div className="greg gap-5 text-center flex flex-col lg:flex-row justify-center items-center">
-              <p class="w-full lg:w-auto">Humanity</p>
-              <p class="w-full lg:w-auto">integrity</p>
-              <p class="w-full lg:w-auto">possibility mentality</p>
+              <p className="w-full lg:w-auto">Humanity</p>
+              <p className="w-full lg:w-auto">integrity</p>
+              <p className="w-full lg:w-auto">possibility mentality</p>
             </div>
             <p className="pt-10 lg:pt-6">MsVick upholds humanity, integrity and possibility mentality as its core values - in treating everyone with respect and empathy while being transparent in dealings with people and clients.</p>
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
         </section>
 
         <section className="flex flex-col xl:items-stretch items-center justify-center lg:flex-row pt-8 lg:pt-20 gap-5">
-          <div className="dax borderr p-6 gap-8 lg:p-10 lg:gap-10 flex flex-col">
+          <div className="dax md:text-left text-center borderr p-6 gap-8 lg:p-10 lg:gap-10 flex flex-col">
             <p>I&apos;m <span>Victoria Alli-Johnson</span>, a <span>UI/UX/Product Designer</span> who believes in designing with a deep understanding of human psychology. I&aposm fascinated by how we connect, interpret, and respond to experiences, whether digital or physical.</p>
             <p>With a background primarily in early-stage startups and cross-functional teams, I specialize in crafting adaptive, flexible, intuitive, and useful user experiences for both businesses and customers.</p>
             <p>I bring additional skills in product management, enabling me to understand product roadmaps, PRDs, and FRS. Throughout my process, I prioritize clear communication and comprehensive documentation from start to finish</p>
@@ -81,7 +81,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer class="lg:pt-28">
+      <footer className="lg:pt-28">
         <p className="footp">
           (c) 2023 | Design by MsVick | Code by Howard Otuya
         </p>
