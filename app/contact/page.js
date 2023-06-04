@@ -23,16 +23,10 @@ export default function Contact() {
     sone.addEventListener('mouseleave', function() {
       stwo.style.display = 'block';
       sthree.style.display = 'none';
-      stwo.style.transition = 'opacity 300ms ease-out';
-      stwo.style.opacity = '1';
-      sthree.style.opacity = '0';
     });
     sone.addEventListener('mouseenter', function() {
       stwo.style.display = 'none';
       sthree.style.display = 'block';
-      stwo.style.transition = 'opacity 300ms ease-out';
-      stwo.style.opacity = '0';
-      sthree.style.opacity = '1';
     });
   });
 
