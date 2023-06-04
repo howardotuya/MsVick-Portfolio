@@ -1,4 +1,5 @@
 "use client"
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from ".././public/Logo.png";
@@ -13,20 +14,26 @@ import nav4 from ".././public/pen-tool.png";
 import nav5 from ".././public/profile-2user.png";
 import nav6 from ".././public/sms-edit.png";
 
-const popuphandler = () => {
-  const popup = document.querySelector(".sidebar");
-
-  if (popup.style.display == "none") {
-    popup.style.display = "flex";
-  } else {
-    popup.style.display = "none";
-  }
-};
 
 function Navbar() {
+
+  useEffect(() => {
+    popuphandler();
+  })
+
+    const popuphandler = () => {
+      const popup = document.getElementById("sidebar");
+
+      if (popup.style.display == "none") {
+        popup.style.display = "flex";
+      } else {
+        popup.style.display = "none";
+      }
+    };
+
   return (
     <>
-      <nav className="z-50 sidebar justify-end items-end overflow-hidden">
+      <nav id="sidebar" className="z-50 hidden sidebar justify-end items-end overflow-hidden">
         <div
           id="sidebar-container"
           className="gap-16 overflow-scroll lg:overflow-hidden py-10 px-5 lg:p-10 flex flex-col"
