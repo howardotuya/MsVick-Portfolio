@@ -73,7 +73,7 @@ function Navbar() {
               />
               <p className="sidebar-text">Studio</p>
             </Link>
-            <Link href="/" onClick={popuphandler} className="flex items-center gap-4">
+            <Link href="/community" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav5}
