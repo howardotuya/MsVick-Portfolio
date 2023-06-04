@@ -37,7 +37,7 @@ export default function Contact() {
     <Navbar />
       <main className="w-full">
         <section className="lg:pt-12 pt-36 flex flex-col justify-center items-center">
-          <div id="logoO" class="relative overflow-hidden contact-img">
+          <div id="logoO" className="relative overflow-hidden contact-img">
             <Image id="logon" className='w-full h-full top-0 left-0 absolute' src={pic} alt="MsVick Logo" quality={100} priority  />
             <Image id="logog" className='w-full h-full top-0 left-0 absolute opacity-0' src={picg} alt="MsVick Logo" quality={100} priority  />        
           </div> 
@@ -63,7 +63,7 @@ export default function Contact() {
 
       
       <footer className="lg:pt-20">
-        <div class="pt-28 lg:pt-0">
+        <div className="pt-28 lg:pt-0">
           <p className="footp">
             (c) 2023 | Design by MsVick | Code by Howard Otuya
           </p>

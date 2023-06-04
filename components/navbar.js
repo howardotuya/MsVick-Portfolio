@@ -18,18 +18,18 @@ import nav6 from ".././public/sms-edit.png";
 function Navbar() {
 
   useEffect(() => {
-    popuphandler();
+    document.getElementById("sidebar").style.display = "none";
   })
 
-    const popuphandler = () => {
-      const popup = document.getElementById("sidebar");
+  const popuphandler = () => {
+    const popup = document.getElementById("sidebar");
 
-      if (popup.style.display == "none") {
-        popup.style.display = "flex";
-      } else {
-        popup.style.display = "none";
-      }
-    };
+    if (popup.style.display == "none") {
+      popup.style.display = "flex";
+    } else {
+      popup.style.display = "none";
+    }
+  };
 
   return (
     <>
