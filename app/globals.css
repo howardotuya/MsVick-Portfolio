@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
   font-family: "BL Melody Mono Regular";
   width: 100%;
+  height: 100%;
 }
 
 .headi {
@@ -43,7 +44,6 @@ body {
   font-size: 10px;
   line-height: 160%;
   color: #fff9f3;
-  margin-top: 112px;
   padding-top: 54px;
   padding-bottom: 42px;
   text-align: center;
@@ -139,7 +139,6 @@ body {
   color: #FFF9F3;
 }
 
-
 .ab-cont {
   padding-left: 0;
   padding-right: 0;
@@ -184,9 +183,8 @@ body {
 }
 
 .contact-img {
-  width: 100%;
-  max-width: 288px;
-  height: auto;
+  width: 288px;
+  height: 160.28px;
 }
 
 .micrac {
@@ -208,8 +206,55 @@ body {
   color: #FFF9F3;
 }
 
-@media only screen and (min-width: 1400px) {
+#logon {
+  transition: opacity 0.5s ease;
+}
+#logog {
+  transition: opacity 0.5s ease;
+}
 
+.community1 {
+  width: 100%;
+  width: 100%;
+  max-width: 701px;
+  max-height: 476px;
+}
+
+.h2 {
+  font-family: 'MicraC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 110%;
+  color: #FFF9F3;
+  text-transform: uppercase;
+}
+
+.community-cta {
+  background-color: #14A26B;
+  font-family: 'BL Melody Mono Bold';
+  padding: 22.5px 50px;
+  letter-spacing: -4%;
+}
+
+@media only screen and (min-width: 767px) {
+  .h2 {
+    font-size: 48px;
+  }
+  
+  body {
+    background: #1e1e1e;
+    padding: 0 64px;
+    max-width: 1440px;
+  }
+  .contact-img {
+    width: 392px;
+    height: 218.16px;
+  }
+}
+
+
+@media only screen and (min-width: 1400px) {
   .micrac {
     font-family: 'MicraC';
     font-style: normal;

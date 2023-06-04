@@ -89,8 +89,13 @@ export default function Home() {
 
       </main>
 
-      <footer>
-        <p className="footp">(c) 2023 | Design by MsVick | Code by Howard Otuya</p>
+      
+      <footer className="">
+        <div class="pt-28 lg:pt-0">
+          <p className="footp">
+            (c) 2023 | Design by MsVick | Code by Howard Otuya
+          </p>
+        </div>
       </footer>
     </>
   )

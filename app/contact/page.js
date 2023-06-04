@@ -21,27 +21,28 @@ export default function Contact() {
     var sthree = document.getElementById('logog');
 
     sone.addEventListener('mouseleave', function() {
-      stwo.style.display = 'block';
-      sthree.style.display = 'none';
+      sone.style.transition = 'opacity 600ms ease-out';
+      stwo.style.opacity = '1';
+      sthree.style.opacity = '0';
     });
     sone.addEventListener('mouseenter', function() {
-      stwo.style.display = 'none';
-      sthree.style.display = 'block';
+      sone.style.transition = 'opacity 600ms ease-out';
+      stwo.style.opacity = '0';
+      sthree.style.opacity = '1';
     });
   });
 
   return (
     <>
     <Navbar />
-
       <main className="w-full">
         <section className="lg:pt-12 pt-36 flex flex-col justify-center items-center">
-          <div id="logoO">
-            <Image id="logon" className='contact-img' src={pic} alt="MsVick Logo" quality={100} priority  />
-            <Image id="logog" className='contact-img hidden' src={picg} alt="MsVick Logo" quality={100} priority  />        
+          <div id="logoO" class="relative overflow-hidden contact-img">
+            <Image id="logon" className='w-full h-full top-0 left-0 absolute' src={pic} alt="MsVick Logo" quality={100} priority  />
+            <Image id="logog" className='w-full h-full top-0 left-0 absolute opacity-0' src={picg} alt="MsVick Logo" quality={100} priority  />        
           </div> 
           <h2 className="uppercase micrac pt-6 lg:pt-10">MsVick</h2>
-          <div className="pt-10 flex flex-col justify-center items-center gap-4 bf600">
+          <div className="lg:pt-10 pt-14 flex flex-col justify-center items-center gap-4 bf600">
             <div className="flex justify-center items-center gap-2">
               <Image className='h-6 w-6' src={call} alt="Call Logo" quality={100} priority  />
               <p className="">(+234) 816 870 1083</p>
@@ -60,10 +61,13 @@ export default function Contact() {
         </section>
       </main>
 
+      
       <footer className="lg:pt-20">
-        <p className="footp">
-          (c) 2023 | Design by MsVick | Code by Howard Otuya
-        </p>
+        <div class="pt-28 lg:pt-0">
+          <p className="footp">
+            (c) 2023 | Design by MsVick | Code by Howard Otuya
+          </p>
+        </div>
       </footer>
     </>
   );
