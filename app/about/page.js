@@ -33,7 +33,7 @@ export default function Home() {
     <>
     <Navbar />
 
-      <main className="w-full">
+      <main className="w-full pt-main">
         <section className="pt-112a">
           <div className="flex uppercase flex-col justify-center items-center h-full">
             <p className="bg-text">About</p>
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="overflow-hidden h-full relative border">
               <Image className=' sgi saturate-0 object-top w-full h-full' src={profile} alt="MsVick Profile" quality={100} priority  />
             </div>
-            <span className="absolute sgb bgmilk bottom-0 left-0 w-full lg:w-auto text-center z-50">Connect with me on LinkedIn</span>
+            <span className="absolute sgb bgmilk bottom-0 left-0 w-full lg:w-auto text-center z-10">Connect with me on LinkedIn</span>
           </div>
         </section>
       </main>

@@ -54,8 +54,7 @@ export default function Home() {
   return (
     <>
     <Navbar />
-
-      <main className="w-full">
+      <main className="w-full pt-main">
         <section className="pt-112 ">
           <div className="flex gap-4 flex-col justify-center items-center">
             <p className="headi">MsVick</p>

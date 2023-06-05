@@ -12,7 +12,7 @@ export default function Community() {
     <>
       <Navbar />
 
-      <main className="w-full">
+      <main className="w-full pt-main">
         <section className="pt-16 lg:pt-28">
           <div className="flex uppercase flex-col justify-center items-center h-full">
             <p className="bg-text">Community</p>

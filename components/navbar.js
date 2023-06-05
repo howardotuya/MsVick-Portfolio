@@ -60,7 +60,7 @@ function Navbar() {
               />
               <p className="sidebar-text">About</p>
             </Link>
-            <Link href="/" onClick={popuphandler} className="flex items-center gap-4">
+            <Link href="/portfolio" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav3}
@@ -104,9 +104,9 @@ function Navbar() {
         </div>
       </nav>
 
-      <header className="w-full h-full">
+      <header className="w-full bgbl z-40 fixed top-0 left-0 right-0">
         {/* Navbar for Desktop */}
-        <nav className="flex lg:py-10 pb-5 pt-14 justify-between">
+        <nav className="flex lg:py-10 pb-5 pt-14 justify-between px-5 naav lg:px-28">
           <Link href="/">
             <Image
               className="lg:h-16 h-8 w-auto"

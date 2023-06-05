@@ -14,6 +14,24 @@ body {
   height: 100%;
 }
 
+p {
+  font-family: 'BL Melody Mono Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.bodyW {
+  background: #fff!important;
+  color: #1B1B1B!important
+}
+
+
+.bgbl {
+  background: #1b1b1b;
+}
+
 .headi {
   font-family: "MicraC";
   font-style: normal;
@@ -237,13 +255,101 @@ body {
   letter-spacing: -4%;
 }
 
+.naav {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+hr {
+  background-color: #E0E7E4;
+}
+
+.pt-main {
+  padding-top: calc(56px + 20px + 32px);
+}
+
+.CTA {
+  font-family: "BL Melody Mono Medium";
+  padding: 18.5px 24px;
+  background-color: #1B1B1B;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.naav {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mini-CTA {
+    display: block;
+    text-align: center;
+    font-family: "BL Melody Mono Medium";
+    padding: 18.5px 24px;
+    color: #1B1B1B;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+}
+
+.portfolio-h2 {
+    font-family: 'MicraC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.mockup{
+    max-width: 660px;
+    width: 100%;
+    height: auto;
+    box-shadow: -16px -16px 40px rgba(27, 27, 27, 0.1);
+}
+
+.pt-100 {
+    padding-top: 72px;
+}
+
+.pt-main2 {
+    padding-top: calc(64px + 40px + 40px + 1px);
+}
+
+.sidebar2 {
+  display: none;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, .1)
+}
+
+#sidebar-container2 {
+  position: relative;
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+  background: #1F1F1F;
+}
+
+.sidebar-text2 {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  font-family: "BL Melody Mono Medium";
+}
+
 @media only screen and (min-width: 767px) {
   .h2 {
     font-size: 48px;
   }
   
   body {
-    background: #1e1e1e;
     padding: 0 64px;
     max-width: 1440px;
   }
@@ -255,6 +361,26 @@ body {
 
 
 @media only screen and (min-width: 1400px) {
+  .portfolio-h2 {
+      font-size: 64px;
+      line-height: 110%;
+  }
+
+  .mockup{
+      max-width: 660px;
+      width: 100%;
+      height: auto;
+      box-shadow: -16px -16px 40px rgba(27, 27, 27, 0.1);
+  }
+  
+  .pt-100 {
+      padding-top: 100px;
+  }
+  
+  .pt-main {
+    padding-top: calc(64px + 40px + 40px + 1px);
+  }
+  
   .micrac {
     font-family: 'MicraC';
     font-style: normal;
@@ -324,15 +450,16 @@ body {
   }
 
   body {
-    background: #1e1e1e;
     padding: 0 112px;
     max-width: 1440px;
   }
 }
 
 @media only screen and (min-width: 1900px) {
+  .naav {
+    padding: 2.5rem 0!important;
+  }
   body {
-    background: #1e1e1e;
     padding: 0;
     max-width: 1440px;
   }

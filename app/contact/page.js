@@ -35,7 +35,7 @@ export default function Contact() {
   return (
     <>
     <Navbar />
-      <main className="w-full">
+      <main className="w-full pt-main">
         <section className="lg:pt-12 pt-36 flex flex-col justify-center items-center">
           <div id="logoO" className="relative overflow-hidden contact-img">
             <Image id="logon" className='w-full h-full top-0 left-0 absolute' src={pic} alt="MsVick Logo" quality={100} priority  />
