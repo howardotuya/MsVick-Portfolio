@@ -105,7 +105,7 @@ function Navbar() {
 
       <header className="w-full bgbl z-40 fixed top-0 left-0 right-0">
         {/* Navbar for Desktop */}
-        <nav className="flex lg:py-10 pb-5 pt-14 justify-between px-5 naav lg:px-28">
+        <nav className="flex lg:py-10 md:px-16 pb-5 pt-14 justify-between px-5 naav lg:px-28">
           <Link href="/">
             <Image
               className="lg:h-16 h-8 w-auto"
