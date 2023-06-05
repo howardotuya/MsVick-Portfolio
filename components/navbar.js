@@ -16,7 +16,6 @@ import nav6 from ".././public/sms-edit.png";
 
 
 function Navbar() {
-
   useEffect(() => {
     document.getElementById("sidebar").style.display = "none";
   })

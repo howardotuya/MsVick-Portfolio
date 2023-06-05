@@ -1,6 +1,7 @@
 "use client";
 import {useEffect} from "react"
 import Image from 'next/image';
+import Link from 'next/link';
 import h1 from "../public/h1.jpg";
 import h2 from "../public/h2.jpg";
 import h3 from "../public/h3.jpg";
@@ -63,27 +64,27 @@ export default function Home() {
         </section>
 
         <section className="flex flex-col lg:flex-row gap-5 pt-112x">
-          <div className="card one">
+          <Link href="portfolio" className="card one">
             <div className="cardH w-full h-full relative border">
               <Image className='object-cover oneI obj w-full h-full' src={h1} alt="Portfolio" quality={100} priority  />
               <div className="overlayImg"></div>
             </div>
             <p className="textImg">Portfolio</p>
-          </div>
-          <div className="card two">
+          </Link>
+          <Link href="" className="card two">
             <div className="cardH w-full h-full relative border">
               <Image className='object-cover twoI object-top w-full h-full' src={h2} alt="Studio" quality={100} priority  />
               <div className="overlayImg"></div>
             </div>
             <p className="textImg">Studio</p>
-          </div>
-          <div className="card three">
+          </Link>
+          <Link href="/community" className="card three">
             <div className="cardH w-full h-full relative border">
               <Image className='object-cover  threeI w-full relative h-full object-right' src={h3} alt="Community" quality={100} priority  />
               <div className="overlayImg"></div>
             </div>
             <p className="textImg">Community</p>
-          </div>
+          </Link>
         </section>
 
       </main>
