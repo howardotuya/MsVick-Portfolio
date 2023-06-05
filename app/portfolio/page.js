@@ -13,17 +13,13 @@ import nav6 from "../../public/sms-edit.png";
 import mockup from "../../public/mockup.png";
 
 export default function Home() {
-
   useEffect(() => {
     document.getElementById("sidebar2").style.display = "none";
     document.body.classList.add('bodyW'); 
   })
-
-  document.body.classList.add('bodyW');
-
+  
   const popuphandler = () => {
     const popup = document.getElementById("sidebar2");
-
     if (popup.style.display == "none") {
       popup.style.display = "flex";
     } else {
@@ -128,7 +124,7 @@ export default function Home() {
               priority
             />
           </Link>
-          <div class="hidden lg:flex gap-10">
+          <div className="hidden lg:flex gap-10">
             <Link href="#">About </Link>
             <Link href="#">Projects</Link>
             <Link href="#">Case Studies</Link>
@@ -150,19 +146,18 @@ export default function Home() {
             />
           </div>
         </nav>
-        <div class="overflow-hidden play">
+        <div className="overflow-hidden play">
           <hr />
         </div>
       </header>
 
-      <main className="w-full pt-main2 px-5 lg:px-28 ">
-
-        <section className="flex flex-col justify-center items-center text-center pt-20 lg:pt-36">
+      <main className="w-full pt-main2">
+        <section className="flex px-5 lg:px-28 bodyW flex-col justify-center items-center text-center pt-20 lg:pt-36">
           <div className="max-w-5xl flex flex-col gap-4 lg:gap-2">
             <h2 className="portfolio-h2">Designing for impact</h2>
             <p className="phb">Creating adaptive and intuitive digital solutions for early-stage startups who are building SaaS, Healthcare and Lifestyle products</p>
           </div>
-          <div class="pt-100">
+          <div className="pt-100">
             <Image
                 className="mockup"
                 src={mockup}
