@@ -32,6 +32,8 @@ function Navbar() {
 
   return (
     <>
+    <div class="w-full">
+      <div class="bodyCon">
       <nav id="sidebar" className="z-50 hidden sidebar justify-end items-end overflow-hidden">
         <div
           id="sidebar-container"
@@ -69,7 +71,7 @@ function Navbar() {
               />
               <p className="sidebar-text">Portfolio</p>
             </Link>
-            <Link href="/" onClick={popuphandler} className="flex items-center gap-4">
+            <Link href="/studio" onClick={popuphandler} className="flex items-center gap-4">
               <Image
                 className="h-16 w-auto"
                 src={nav4}
@@ -127,6 +129,7 @@ function Navbar() {
           </div>
         </nav>
       </header>
+      </div></div>
     </>
   )
 }

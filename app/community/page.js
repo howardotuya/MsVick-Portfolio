@@ -13,97 +13,104 @@ export default function Community() {
       <Navbar />
 
       <main className="w-full pt-main">
-        <section className="pt-16 lg:pt-28">
-          <div className="flex uppercase flex-col justify-center items-center h-full">
-            <p className="bg-text">Community</p>
-            <p className="otbgt">Community</p>
-          </div>
-        </section>
+        <div class="w-full">
+          <div class="bodyCon">
+            <section className="pt-16 lg:pt-28">
+              <div className="flex uppercase flex-col justify-center items-center h-full">
+                <p className="bg-text">Community</p>
+                <p className="otbgt">Community</p>
+              </div>
+            </section>
 
-        <section className="lg:pt-28 pt-14">
-          <div className="lg:pt-28 lg:pb-0 py-4 flex lg:flex-row flex-col items-center gap-10 lg:gap-20 ">
-            <div className="lg:max-w-md flex flex-col gap-10 lg:order-1 order-2">
-              <div className="flex flex-col gap-4">
-                <h2 className="h2">RoadTrip Community</h2>
-                <p>
-                  A community of creatives from Nigeria and Africa, supporting
-                  one another in building a successful career in the Design &
-                  Tech space.
-                </p>
+            <section className="lg:pt-28 pt-14">
+              <div className="lg:pt-28 lg:pb-0 py-4 flex lg:flex-row flex-col items-center gap-10 lg:gap-20 ">
+                <div className="lg:max-w-md flex flex-col gap-10 lg:order-1 order-2">
+                  <div className="flex flex-col gap-4">
+                    <h2 className="h2">RoadTrip Community</h2>
+                    <p>
+                      A community of creatives from Nigeria and Africa,
+                      supporting one another in building a successful career in
+                      the Design & Tech space.
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <Link href="#" className="community-cta block w-auto">
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
+                <div className="lg:order-2 order-1">
+                  <Image
+                    className="community1"
+                    src={community1}
+                    alt="Roadtrip Community Image"
+                    quality={100}
+                    priority
+                  />
+                </div>
               </div>
-              <div className="flex">
-                <Link href="#" className="community-cta block w-auto">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-            <div className="lg:order-2 order-1">
-              <Image
-                className="community1"
-                src={community1}
-                alt="Roadtrip Community Image"
-                quality={100}
-                priority
-              />
-            </div>
-          </div>
-        </section>
+            </section>
 
-        <section className="pt-28">
-          <div className="lg:pt-28 lg:pb-0 py-4 flex lg:flex-row flex-col items-center gap-10 lg:gap-20 ">
-            <div className="">
-              <Image
-                className="community1"
-                src={community2}
-                alt="Roadtrip Community Image"
-                quality={100}
-                priority
-              />
-            </div>
-            <div className="lg:max-w-md flex flex-col gap-10">
-              <div className="flex flex-col gap-4">
-                <h2 className="h2">RoadTrip Tech Hub</h2>
-                <p>
-                  Dedicated to developing a talent pipeline of trained and
-                  competent professionals in the Tech ecosystem in Nigeria and
-                  Africa.
-                </p>
+            <section className="pt-28">
+              <div className="lg:pt-28 lg:pb-0 py-4 flex lg:flex-row flex-col items-center gap-10 lg:gap-20 ">
+                <div className="">
+                  <Image
+                    className="community1"
+                    src={community2}
+                    alt="Roadtrip Community Image"
+                    quality={100}
+                    priority
+                  />
+                </div>
+                <div className="lg:max-w-md flex flex-col gap-10">
+                  <div className="flex flex-col gap-4">
+                    <h2 className="h2">RoadTrip Tech Hub</h2>
+                    <p>
+                      Dedicated to developing a talent pipeline of trained and
+                      competent professionals in the Tech ecosystem in Nigeria
+                      and Africa.
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <Link href="#" className="community-cta block w-auto">
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
               </div>
-              <div className="flex">
-                <Link href="#" className="community-cta block w-auto">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
 
-        <section className="pt-28">
-          <div className="lg:pt-28 lg:pb-0 py-4 flex lg:flex-row flex-col items-center gap-10 lg:gap-20 ">
-            <div className="lg:max-w-md flex flex-col gap-10 lg:order-1 order-2">
-              <div className="flex flex-col gap-4">
-                <h2 className="h2">MsVick Mentorship Program</h2>
-                <p>
-                An extraordinary one-on-one mentoring experience that focuses on empowering individuals to set and achieve their goals, develop effective systems, and surpass their growth targets. 
-                </p>
+            <section className="pt-28">
+              <div className="lg:pt-28 lg:pb-0 py-4 flex lg:flex-row flex-col items-center gap-10 lg:gap-20 ">
+                <div className="lg:max-w-md flex flex-col gap-10 lg:order-1 order-2">
+                  <div className="flex flex-col gap-4">
+                    <h2 className="h2">MsVick Mentorship Program</h2>
+                    <p>
+                      An extraordinary one-on-one mentoring experience that
+                      focuses on empowering individuals to set and achieve their
+                      goals, develop effective systems, and surpass their growth
+                      targets.
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <Link href="#" className="community-cta block w-auto">
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
+                <div className="lg:order-2 order-1">
+                  <Image
+                    className="community1"
+                    src={community3}
+                    alt="Roadtrip Community Image"
+                    quality={100}
+                    priority
+                  />
+                </div>
               </div>
-              <div className="flex">
-                <Link href="#" className="community-cta block w-auto">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-            <div className="lg:order-2 order-1">
-              <Image
-                className="community1"
-                src={community3}
-                alt="Roadtrip Community Image"
-                quality={100}
-                priority
-              />
-            </div>
+            </section>
           </div>
-        </section>
+        </div>
       </main>
 
       <footer className="lg:pt-28">

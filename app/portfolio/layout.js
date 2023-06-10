@@ -6,7 +6,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=" flex flex-col items-center bodyW justify-center relative">{children}</body>
+      <body className="flex flex-col items-center justify-center relative">{children}</body>
     </html>
   )
 }
