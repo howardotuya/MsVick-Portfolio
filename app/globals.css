@@ -327,7 +327,8 @@ hr {
   max-width: 660px;
   width: 100%;
   height: auto;
-  box-shadow: -16px -16px 40px rgba(27, 27, 27, 0.1);
+  filter: drop-shadow(-16px -16px 40px rgba(27, 27, 27, 0.1));
+  border-radius: 6.77557px;;
 }
 
 .pt-100 {
@@ -535,6 +536,7 @@ hr {
     width: 100%;
     height: auto;
     box-shadow: -16px -16px 40px rgba(27, 27, 27, 0.1);
+    border-radius: 12px;
   }
 
   .pt-100 {
@@ -542,7 +544,7 @@ hr {
   }
 
   .pt-main {
-    padding-top: calc(64px + 40px + 40px + 1px);
+    padding-top: calc(64px + 40px + 40px + 1px); 
   }
 
   .micrac {
