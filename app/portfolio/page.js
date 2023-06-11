@@ -326,12 +326,12 @@ export default function Home() {
                           <p>
                             Let me begin by saying that I enjoyed working with
                             Victoria, a fantastic UI/UX developer who exceeded
-                            my expectations. Victoria's work is outstanding, and
+                            my expectations. Victoria&apos;s work is outstanding, and
                             her attention to detail is unparalleled.
                           </p>
                           <p>
                             Throughout the process, she thoroughly understood
-                            our company's brand and goals. She took the time to
+                            our company&apos;s brand and goals. She took the time to
                             listen to our wants and needs and worked hard to
                             deliver designs that perfectly matched our vision.
                           </p>
@@ -379,7 +379,7 @@ export default function Home() {
                             way.
                           </p>
                           <p>
-                            She's highly professional and attentive to feedback.
+                            She&apos;s highly professional and attentive to feedback.
                           </p>
                         </div>
                         <div class="tc-subcont flex flex-col gap-2">
