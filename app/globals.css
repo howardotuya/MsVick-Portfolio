@@ -140,7 +140,6 @@ p {
   line-height: 140%;
   color: rgba(255, 249, 243, 0.04);
 }
-
 .otbgt {
   font-family: "MicraC";
   font-style: normal;
@@ -148,6 +147,24 @@ p {
   font-size: 28px;
   line-height: 140%;
   color: #fff9f3;
+}
+
+.bg-textw {
+  display: none;
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  color: rgba(27, 27, 27, 0.04);
+}
+.otbgtw {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1b1b1b;
 }
 .otbgtn {
   font-family: "MicraC";
@@ -344,7 +361,106 @@ hr {
   gap: 64px;
 }
 
+.py-120r {
+  padding: 80px 0;
+}
+.py-120w {
+  padding: 80px 0 64px;
+}
+.tc-bt,
+.tc-bt > p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #171c1a;
+}
+
+.tc-subcont-h2 {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #171c1a;
+}
+.tc-subcont-p {
+  font-family: "BL Melody Mono Medium";
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #14a26b;
+}
+.tc {
+  border: 1px solid #e0e7e4;
+}
+
+.w-cl {
+  height: 38px;
+}
+
+.fop > p {
+  font-family: "BL Melody Mono Medium";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff9f3;
+}
+
+.fosp > p {
+  font-family: "BL Melody Mono Medium";
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 120%;
+  display: flex;
+  letter-spacing: -0.04em;
+  color: #597367;
+}
+
+.fosp > div> p {
+  font-family: "BL Melody Mono Medium";
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  letter-spacing: -0.04em;
+  color: #597367;
+}
+
 @media only screen and (min-width: 767px) {
+  .fop > p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .fosp > p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .fosp > div> p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .tc-bt,
+  .tc-bt > p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .tc-subcont-h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .tc-subcont-p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .w-cl {
+    height: 73px;
+  }
   .h2 {
     font-size: 48px;
   }
@@ -361,10 +477,28 @@ hr {
   .minusR {
     margin-right: -112px;
   }
-  
+
+  .py-125 {
+    padding: 120px 0 104px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
+  .py-120w {
+    padding: 120px 0 80px;
+  }
+  .py-120r {
+    padding: 120px 0;
+  }
+
+  .py-125 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e7e4;
+    margin: 0 -112px;
+    padding: 120px 112px 104px;
+  }
+
   .gap-120 {
     gap: 120px;
   }
@@ -372,7 +506,7 @@ hr {
   .py-120 {
     padding-top: 120px;
   }
-  
+
   .prH {
     font-family: "MicraC";
     font-style: normal;
@@ -381,17 +515,16 @@ hr {
     line-height: 110%;
     color: #fff9f3;
   }
-  
   .prp {
     font-size: 16px;
     line-height: 160%;
     color: #e0e7e4;
   }
-  
+
   .prm {
     max-width: 436px;
   }
-  
+
   .portfolio-h2 {
     font-size: 64px;
     line-height: 110%;
@@ -446,12 +579,19 @@ hr {
     padding-top: 112px;
   }
 
-  .bg-text {
+  .bg-text,
+  .bg-textw {
     display: block;
   }
 
-  .otbgt, .otbgtn {
+  .otbgt,
+  .otbgtn {
     font-size: 32px;
+    position: absolute;
+  }
+
+  .otbgtw {
+    font-size: 24px;
     position: absolute;
   }
 
