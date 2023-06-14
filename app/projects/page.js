@@ -9,7 +9,6 @@ import nav1 from "../../public/close-circle.png";
 import nav2 from "../../public/personalcard.png";
 import nav3 from "../../public/path-square.png";
 import nav4 from "../../public/pen-tool.png";
-import mockup from "../../public/mockup.png";
 import prone from "../../public/prone.png";
 import prtwo from "../../public/prtwo.png";
 import prthree from "../../public/prthree.png";
@@ -26,10 +25,6 @@ import prmob1 from "../../public/prmob1.png";
 import prmob2 from "../../public/prmob2.png";
 import prmob3 from "../../public/prmob3.png";
 import prmob4 from "../../public/prmob4.png";
-import cl1 from "../../public/cl1.png";
-import cl2 from "../../public/cl2.png";
-import cl3 from "../../public/cl3.png";
-import cl4 from "../../public/cl4.png";
 import behance from "../../public/behance-fillg.png";
 import instagram from "../../public/instagram-fillg.png";
 import linkedin from "../../public/linkedin-fillg.png";
@@ -409,9 +404,9 @@ export default function Projects() {
               <div className="pro-go gap-6 flex flex-col justify-center items-center">
                 <h2>Got A Project?</h2>
                 <p>
-                  Whether you're starting from scratch or looking to give a
-                  fresh look to your existing product, let's connect and discuss
-                  how we can design a product that meets your user's needs and
+                  Whether you&apos;re starting from scratch or looking to give a
+                  fresh look to your existing product, let&apos;s connect and discuss
+                  how we can design a product that meets your user&apos;s needs and
                   your business goals.
                 </p>
               </div>
