@@ -411,7 +411,7 @@ hr {
   height: 38px;
 }
 
-.fop > p {
+.fop > p, .fop > a {
   font-family: "BL Melody Mono Medium";
   font-size: 12px;
   line-height: 14px;
@@ -476,7 +476,123 @@ hr {
   border: 1px solid #fff9f3;
 }
 
+.inactive-nb {
+  color: #99afa5;
+}
+
+.bg-greeen {
+  background-color: #14a26b;
+}
+
+.py-120p {
+  padding: 64px 0;
+}
+
+.pro-h2 {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 110%;
+  text-align: left;
+}
+
+.pro-p {
+  font-family: "BL Melody Mono Medium";
+  max-width: 390px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #e0e7e4;
+}
+
+.bg-balck {
+  background-color: #1b1b1b;
+}
+
+.pb-120x {
+  padding: 0px 0px 64px;
+}
+
+.py-120ax {
+  padding: 64px 0px 120px;
+}
+
+.pro-goc {
+  padding: 64px 0;
+  margin-bottom:120px;
+}
+
+.pro-go > h2 {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.pro-go > p {
+  max-width: 824px;
+  font-family: "BL Melody Mono Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #e0e7e4;
+}
+
+.zBold {
+  font-family: "BL Melody Mono Bold";
+  padding: 16px 24px;
+}
+
 @media only screen and (min-width: 767px) {
+
+  .zBold {
+    font-family: "BL Melody Mono Bold";
+    padding: 22.5px 50px;
+  }
+  
+  .pro-goc {
+    padding: 120px 0;
+  }
+  
+  .pro-go > h2 {
+    text-align: center;
+  }
+  
+  .pro-go > p {
+    text-align: center;
+  }
+  
+  .pb-120x {
+    padding: 0 0 120px;
+  }
+  .py-120ax {
+    padding: 120px 0px;
+  }
+  .pro-h2 {
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .pro-p {
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    max-width: 100%;
+  }
+  .py-120p {
+    padding: 120px 0;
+  }
 
   .sdcont {
     padding: 0 100px 0;
@@ -491,7 +607,7 @@ hr {
     font-size: 20px;
     line-height: 28px;
   }
-  .fop > p {
+  .fop > p, .fop > a {
     font-size: 14px;
     line-height: 17px;
   }
@@ -538,9 +654,21 @@ hr {
     margin-right: -112px;
   }
 
+  .minusL {
+    margin-left: -112px;
+  }
+
   .py-125 {
     padding: 120px 0 104px;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  .prm {
+    max-width: 436px;
+  }
+
 }
 
 @media only screen and (min-width: 1400px) {
@@ -579,10 +707,6 @@ hr {
     font-size: 16px;
     line-height: 160%;
     color: #e0e7e4;
-  }
-
-  .prm {
-    max-width: 436px;
   }
 
   .portfolio-h2 {
@@ -704,5 +828,8 @@ hr {
   }
   .minusR {
     margin-right: 0;
+  }
+  .minusL {
+    margin-left: 0;
   }
 }

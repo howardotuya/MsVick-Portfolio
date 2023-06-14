@@ -78,7 +78,7 @@ export default function Home() {
               <p className="sidebar-text">MsVick</p>
             </Link>
             <Link
-              href="/"
+              href="/projects"
               onClick={popuphandler}
               className="flex items-center gap-4"
             >
@@ -127,8 +127,8 @@ export default function Home() {
             />
           </Link>
           <div className="hidden lg:flex gap-10">
-            <Link href="#">MsVick </Link>
-            <Link href="#">Projects</Link>
+            <Link href="/">MsVick </Link>
+            <Link href="/projects">Projects</Link>
             <Link href="#">Case Studies</Link>
           </div>
           <div className="hidden lg:block cursor-pointer">
@@ -326,14 +326,16 @@ export default function Home() {
                           <p>
                             Let me begin by saying that I enjoyed working with
                             Victoria, a fantastic UI/UX developer who exceeded
-                            my expectations. Victoria&apos;s work is outstanding, and
-                            her attention to detail is unparalleled.
+                            my expectations. Victoria&apos;s work is
+                            outstanding, and her attention to detail is
+                            unparalleled.
                           </p>
                           <p>
                             Throughout the process, she thoroughly understood
-                            our company&apos;s brand and goals. She took the time to
-                            listen to our wants and needs and worked hard to
-                            deliver designs that perfectly matched our vision.
+                            our company&apos;s brand and goals. She took the
+                            time to listen to our wants and needs and worked
+                            hard to deliver designs that perfectly matched our
+                            vision.
                           </p>
                           <p>
                             Her ability to think creatively and outside the box
@@ -379,7 +381,8 @@ export default function Home() {
                             way.
                           </p>
                           <p>
-                            She&apos;s highly professional and attentive to feedback.
+                            She&apos;s highly professional and attentive to
+                            feedback.
                           </p>
                         </div>
                         <div className="tc-subcont flex flex-col gap-2">
@@ -413,7 +416,9 @@ export default function Home() {
                         </div>
                         <div className="tc-subcont flex flex-col gap-2">
                           <h2 className="tc-subcont-h2">Funbi Kuforiji</h2>
-                          <p className="tc-subcont-p">Product Owner, Green&Nile</p>
+                          <p className="tc-subcont-p">
+                            Product Owner, Green&Nile
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -467,29 +472,53 @@ export default function Home() {
       <div className="w-full">
         <div className="bodyCon">
           <div className="flex lg:text-left text-center fop flex-col py-6 gap-2">
-            <div id="" className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
-              <div id="" className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7">
+            <div
+              id=""
+              className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0"
+            >
+              <div
+                id=""
+                className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7"
+              >
                 <p className="">Designing for impact</p>
               </div>
-              <div id="foot-1-2" className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7">
-                <p className="">About</p>
+              <div
+                id="foot-1-2"
+                className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7"
+              >
+                <Link href="/about" className=" hover:underline">
+                  About
+                </Link>
                 <p className=" ">|</p>
-                <p className=" ">Projects</p>
+                <Link href="/projects" className=" hover:underline ">
+                  Projects
+                </Link>
                 <p className=" ">|</p>
                 <p className=" ">Case Studies</p>
                 <p className=" ">|</p>
-                <p className=" ">Contact</p>
+                <Link href="/contact" className=" hover:underline">
+                  Contact
+                </Link>
               </div>
             </div>
-            <div id="" className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
-              <div id="" className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7">
+            <div
+              id=""
+              className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0"
+            >
+              <div
+                id=""
+                className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7"
+              >
                 <p className="">Victoria Alli-Johnson</p>
                 <p className=" ">|</p>
                 <p className=" ">UI/UX</p>
                 <p className=" ">|</p>
                 <p className=" ">Product Design</p>
               </div>
-              <div id="foot-1-2" className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7">
+              <div
+                id="foot-1-2"
+                className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7"
+              >
                 <p className="">SaaS</p>
                 <p className=" ">|</p>
                 <p className=" ">B2B</p>
@@ -501,15 +530,28 @@ export default function Home() {
                 <p className="">ConsumerTech</p>
               </div>
             </div>
-            <div id="" className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
-              <div id="" className="flex flex-col lg:flex-row lg:flex-start justify-center lg:justify-start fosp py-3 gap-2 lg:px-7">
+            <div
+              id=""
+              className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0"
+            >
+              <div
+                id=""
+                className="flex flex-col lg:flex-row lg:flex-start justify-center lg:justify-start fosp py-3 gap-2 lg:px-7"
+              >
                 <p className="">(c)2023</p>
-                <div className="hidden lg:flex"><p>|</p></div>
+                <div className="hidden lg:flex">
+                  <p>|</p>
+                </div>
                 <p className=" ">MsVick designed this</p>
-                <div className="hidden lg:flex"><p>|</p></div>
+                <div className="hidden lg:flex">
+                  <p>|</p>
+                </div>
                 <p className=" ">Howard Otuya did the coding work</p>
               </div>
-              <div id="foot-1-2" className="flex justify-center lg:justify-start fop py-3 gap-5 lg:px-7">
+              <div
+                id="foot-1-2"
+                className="flex justify-center lg:justify-start fop py-3 gap-5 lg:px-7"
+              >
                 <Image
                   className="w-5 h-5"
                   src={behance}
