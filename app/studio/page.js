@@ -117,7 +117,7 @@ export default function Studio() {
 
               <div class="flex justify-center items-center">
                 <Link href="#" className="community-cta block w-auto">
-                  Let's Talk
+                  Let&apos;s Talk
                 </Link>
               </div>
             </section>
