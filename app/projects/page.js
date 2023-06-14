@@ -20,7 +20,7 @@ import oneIDC from "../../public/oneIDC.png";
 import ranka from "../../public/ranka.png";
 import refmeS from "../../public/refmeS.png";
 import interS from "../../public/interS.png";
-import oneIDCs from "../../public/oneIDCs.png";
+import oneIDCs from "../../public/oneIDCS.png";
 import rankaS from "../../public/rankaS.png";
 import prmob1 from "../../public/prmob1.png";
 import prmob2 from "../../public/prmob2.png";
