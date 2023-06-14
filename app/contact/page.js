@@ -33,8 +33,8 @@ export default function Contact() {
     <>
       <Navbar />
       <main className="w-full pt-main">
-        <div class="w-full">
-          <div class="bodyCon">
+        <div className="w-full">
+          <div className="bodyCon">
             <section className="lg:pt-12 pt-36 flex flex-col justify-center items-center">
               <div id="logoO" className="relative overflow-hidden contact-img">
                 <Image

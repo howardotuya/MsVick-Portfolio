@@ -13,8 +13,8 @@ export default function Community() {
       <Navbar />
 
       <main className="w-full pt-main">
-        <div class="w-full">
-          <div class="bodyCon">
+        <div className="w-full">
+          <div className="bodyCon">
             <section className="pt-16 lg:pt-28">
               <div className="flex uppercase flex-col justify-center items-center h-full">
                 <p className="bg-text">Community</p>

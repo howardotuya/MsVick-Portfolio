@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Contact | Designing for Impact | Victoria Alli-Johnson',
+  title: 'Studio | Designing for Impact | Victoria Alli-Johnson',
   description: 'Developed by Howard Otuya',
 }
 

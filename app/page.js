@@ -56,8 +56,8 @@ export default function Home() {
     <>
       <Navbar />
       <main className="w-full pt-main">
-        <div class="w-full">
-          <div class="bodyCon">
+        <div className="w-full">
+          <div className="bodyCon">
             <section className="pt-112 ">
               <div className="flex gap-4 flex-col justify-center items-center">
                 <p className="headi">MsVick</p>
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
                 <p className="textImg">Portfolio</p>
               </Link>
-              <Link href="" className="card two">
+              <Link href="/studio" className="card two">
                 <div className="cardH w-full h-full relative border">
                   <Image
                     className="object-cover twoI object-top w-full h-full"

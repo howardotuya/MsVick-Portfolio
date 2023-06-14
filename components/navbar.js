@@ -32,8 +32,8 @@ function Navbar() {
 
   return (
     <>
-    <div class="w-full">
-      <div class="bodyCon">
+    <div className="w-full">
+      <div className="bodyCon">
       <nav id="sidebar" className="z-50 hidden sidebar justify-end items-end overflow-hidden">
         <div
           id="sidebar-container"

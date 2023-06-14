@@ -108,7 +108,7 @@ export default function Home() {
           </div>
 
           <div className="w-full">
-            <Link className="mini-CTA" href="">
+            <Link className="mini-CTA" href="/contact">
               Got a Project?
             </Link>
           </div>
@@ -132,7 +132,7 @@ export default function Home() {
             <Link href="#">Case Studies</Link>
           </div>
           <div className="hidden lg:block cursor-pointer">
-            <Link href="#" className="CTA block">
+            <Link href="/contact" className="CTA block">
               Got a project?
             </Link>
           </div>
@@ -153,8 +153,8 @@ export default function Home() {
       </header>
 
       <main className="w-full pt-main2">
-        <div class="bg-white w-full">
-          <div class="bodyCon">
+        <div className="bg-white w-full">
+          <div className="bodyCon">
             <section className="bodyW flex px-5 lg:px-28 bodyW flex-col justify-center items-center text-center pt-20 lg:pt-36">
               <div className="w-full text-left md:text-center flex flex-col gap-4 lg:gap-2">
                 <h2 className="portfolio-h2 w-full lg:whitespace-nowrap">
@@ -179,25 +179,25 @@ export default function Home() {
           </div>
         </div>
 
-        <section class="py-120r">
+        <section className="py-120r">
           <div className="flex uppercase flex-col justify-center items-center h-full">
             <p className="bg-text">Featured Projects</p>
             <p className="otbgtn">Featured Projects</p>
           </div>
 
-          <div class="w-full">
-            <div class="bodyCon overflow-x-hidden">
-              <div class="py-120">
-                <div class="flex flex-col lg:flex-row py-16 lg:py-10 items-center gap-16 lg:gap-20">
-                  <div class="prm flex flex-col gap-4">
-                    <h2 class="prH">FrontDesk</h2>
-                    <p class="prp">
+          <div className="w-full">
+            <div className="bodyCon overflow-x-hidden">
+              <div className="py-120">
+                <div className="flex flex-col lg:flex-row py-16 lg:py-10 items-center gap-16 lg:gap-20">
+                  <div className="prm flex flex-col gap-4">
+                    <h2 className="prH">FrontDesk</h2>
+                    <p className="prp">
                       A Visitor Management System with event and participant
                       management features, quick check-ins and customizable
                       functionalities
                     </p>
                   </div>
-                  <div class="minusR">
+                  <div className="minusR">
                     <Image
                       className="w-full h-auto hidden md:block"
                       src={prone}
@@ -216,9 +216,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="py-120">
-                <div class="flex py-10 items-center gap-120 flex-col lg:flex-row">
-                  <div class="lg:-ml-16 lg:order-1 order-2">
+              <div className="py-120">
+                <div className="flex py-10 items-center gap-120 flex-col lg:flex-row">
+                  <div className="lg:-ml-16 lg:order-1 order-2">
                     <Image
                       className="w-full h-auto hidden md:block"
                       src={prtwo}
@@ -234,9 +234,9 @@ export default function Home() {
                       priority
                     />
                   </div>
-                  <div class="prm flex flex-col gap-4 lg:order-2 order-1">
-                    <h2 class="prH">Bleep</h2>
-                    <p class="prp">
+                  <div className="prm flex flex-col gap-4 lg:order-2 order-1">
+                    <h2 className="prH">Bleep</h2>
+                    <p className="prp">
                       A personal security tracking mobile application, with
                       reporting & community features, emergency kit, and a
                       metric monitor web portal.
@@ -245,17 +245,17 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="py-120">
-                <div class="flex flex-col lg:flex-row py-16 lg:py-10 items-center gap-16 lg:gap-20">
-                  <div class="prm flex flex-col gap-4">
-                    <h2 class="prH">Face of Testing</h2>
-                    <p class="prp">
+              <div className="py-120">
+                <div className="flex flex-col lg:flex-row py-16 lg:py-10 items-center gap-16 lg:gap-20">
+                  <div className="prm flex flex-col gap-4">
+                    <h2 className="prH">Face of Testing</h2>
+                    <p className="prp">
                       A highly customizable Software-as-a-Service (SaaS)
                       application that provides a wide range of online
                       assessment solutions to various organizations
                     </p>
                   </div>
-                  <div class="minusR">
+                  <div className="minusR">
                     <Image
                       className="w-full h-auto hidden md:block"
                       src={prthree}
@@ -274,9 +274,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="py-120">
-                <div class="flex py-10 items-center gap-120 flex-col lg:flex-row">
-                  <div class="lg:-ml-16 lg:order-1 order-2">
+              <div className="py-120">
+                <div className="flex py-10 items-center gap-120 flex-col lg:flex-row">
+                  <div className="lg:-ml-16 lg:order-1 order-2">
                     <Image
                       className="w-full h-auto hidden md:block"
                       src={prfour}
@@ -292,9 +292,9 @@ export default function Home() {
                       priority
                     />
                   </div>
-                  <div class="prm flex flex-col gap-4 lg:order-2 order-1">
-                    <h2 class="prH">OneID Mobile</h2>
-                    <p class="prp">
+                  <div className="prm flex flex-col gap-4 lg:order-2 order-1">
+                    <h2 className="prH">OneID Mobile</h2>
+                    <p className="prp">
                       A digital ID app that helps customers manage data and
                       seamlessly share with financial platforms.
                     </p>
@@ -305,10 +305,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section class="bg-white w-full">
-          <div class="bodyCon">
-            <div class="py-120w">
-              <div class="py-125 flex flex-col gap-16 lg:gap-20">
+        <section className="bg-white w-full">
+          <div className="bodyCon">
+            <div className="py-120w">
+              <div className="py-125 flex flex-col gap-16 lg:gap-20">
                 <div className="flex uppercase flex-col justify-center items-center h-full">
                   <p className="bg-textw">
                     Kind words from past employers and clients
@@ -318,10 +318,10 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div class="flex flex-col gap-10">
-                  <div class="t-cont">
-                    <div class="lg:pr-48">
-                      <div class="tc flex flex-col p-5 lg:p-10 gap-10">
+                <div className="flex flex-col gap-10">
+                  <div className="t-cont">
+                    <div className="lg:pr-48">
+                      <div className="tc flex flex-col p-5 lg:p-10 gap-10">
                         <div className="tc-bt">
                           <p>
                             Let me begin by saying that I enjoyed working with
@@ -356,9 +356,9 @@ export default function Home() {
                             work with her again.
                           </p>
                         </div>
-                        <div class="tc-subcont flex flex-col gap-2">
-                          <h2 class="tc-subcont-h2">David Ikazoboh</h2>
-                          <p class="tc-subcont-p">
+                        <div className="tc-subcont flex flex-col gap-2">
+                          <h2 className="tc-subcont-h2">David Ikazoboh</h2>
+                          <p className="tc-subcont-p">
                             PM, Amazon; CEO, Joda Solutions; Product Owner,
                             Rankaque
                           </p>
@@ -366,9 +366,9 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="t-cont">
-                    <div class="lg:pl-48">
-                      <div class="tc flex flex-col p-5 lg:p-10 gap-10">
+                  <div className="t-cont">
+                    <div className="lg:pl-48">
+                      <div className="tc flex flex-col p-5 lg:p-10 gap-10">
                         <div className="tc-bt">
                           <p>
                             Victoria is a very talented and experienced designer
@@ -382,18 +382,18 @@ export default function Home() {
                             She&apos;s highly professional and attentive to feedback.
                           </p>
                         </div>
-                        <div class="tc-subcont flex flex-col gap-2">
-                          <h2 class="tc-subcont-h2">OlaLekan Salami</h2>
-                          <p class="tc-subcont-p">
+                        <div className="tc-subcont flex flex-col gap-2">
+                          <h2 className="tc-subcont-h2">OlaLekan Salami</h2>
+                          <p className="tc-subcont-p">
                             Co-Founder & CEO, OneID Tech
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="t-cont">
-                    <div class="lg:pr-48">
-                      <div class="tc flex flex-col p-5 lg:p-10 gap-10">
+                  <div className="t-cont">
+                    <div className="lg:pr-48">
+                      <div className="tc flex flex-col p-5 lg:p-10 gap-10">
                         <div className="tc-bt">
                           <p>
                             Victoria is an awesome UX designer who brings a wide
@@ -411,9 +411,9 @@ export default function Home() {
                             and she is definitely an asset to us.
                           </p>
                         </div>
-                        <div class="tc-subcont flex flex-col gap-2">
-                          <h2 class="tc-subcont-h2">Funbi Kuforiji</h2>
-                          <p class="tc-subcont-p">Product Owner, Green&Nile</p>
+                        <div className="tc-subcont flex flex-col gap-2">
+                          <h2 className="tc-subcont-h2">Funbi Kuforiji</h2>
+                          <p className="tc-subcont-p">Product Owner, Green&Nile</p>
                         </div>
                       </div>
                     </div>
@@ -421,7 +421,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="flex justify-center items-center lg:gap-12 gap-6 pt-16 lg:pt-20">
+              <div className="flex justify-center items-center lg:gap-12 gap-6 pt-16 lg:pt-20">
                 <div>
                   <Image
                     className="w-auto w-cl"
@@ -464,10 +464,10 @@ export default function Home() {
         </section>
       </main>
 
-      <div class="w-full">
-        <div class="bodyCon">
-          <div class="flex lg:text-left text-center fop flex-col py-6 gap-2">
-            <div id="" class="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
+      <div className="w-full">
+        <div className="bodyCon">
+          <div className="flex lg:text-left text-center fop flex-col py-6 gap-2">
+            <div id="" className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
               <div id="" className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7">
                 <p className="">Designing for impact</p>
               </div>
@@ -481,7 +481,7 @@ export default function Home() {
                 <p className=" ">Contact</p>
               </div>
             </div>
-            <div id="" class="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
+            <div id="" className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
               <div id="" className="flex justify-center lg:justify-start fop py-3 gap-2 lg:px-7">
                 <p className="">Victoria Alli-Johnson</p>
                 <p className=" ">|</p>
@@ -501,7 +501,7 @@ export default function Home() {
                 <p className="">ConsumerTech</p>
               </div>
             </div>
-            <div id="" class="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
+            <div id="" className="flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
               <div id="" className="flex flex-col lg:flex-row lg:flex-start justify-center lg:justify-start fosp py-3 gap-2 lg:px-7">
                 <p className="">(c)2023</p>
                 <div className="hidden lg:flex"><p>|</p></div>
