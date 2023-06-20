@@ -66,9 +66,9 @@ export default function Community() {
                   <div className="flex flex-col gap-4">
                     <h2 className="h2">RoadTrip Tech Hub</h2>
                     <p>
-                      Dedicated to developing a talent pipeline of trained and
-                      competent professionals in the Tech ecosystem in Nigeria
-                      and Africa.
+                      Dedicated to equip tech talents with the essential tools
+                      and cutting-edge strategies to embark on a transformative
+                      career journey that brings both fulfillment and success.
                     </p>
                   </div>
                   <div className="flex">
