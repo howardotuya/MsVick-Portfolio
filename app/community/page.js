@@ -34,7 +34,7 @@ export default function Community() {
                     </p>
                   </div>
                   <div className="flex">
-                    <Link href="#" className="community-cta block w-auto">
+                    <Link target="_blank" href="https://roadtripcommunity.vzy.io/" className="community-cta block w-auto hover:opacity-90">
                       Learn More
                     </Link>
                   </div>
@@ -72,7 +72,7 @@ export default function Community() {
                     </p>
                   </div>
                   <div className="flex">
-                    <Link href="#" className="community-cta block w-auto">
+                    <Link target="_blank" href="http://rt-techhub.vzy.io/" className="community-cta block w-auto hover:opacity-90">
                       Learn More
                     </Link>
                   </div>
