@@ -4,6 +4,10 @@
 @import url("../public/bl-melody-mono/style.css");
 @import url("../public/micrac/stylesheet.css");
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #1b1b1b;
   color: #fff9f3;
