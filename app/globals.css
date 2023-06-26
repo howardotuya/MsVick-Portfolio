@@ -602,6 +602,13 @@ hr {
   font-family: "BL Melody Mono Regular";
 }
 
+.std-cta {
+  background-color: #14a26b;
+  font-family: "BL Melody Mono Bold";
+  padding: 16px 24px;
+  letter-spacing: -0.64px;
+}
+
 @media only screen and (min-width: 767px) {
   .zBold {
     font-family: "BL Melody Mono Bold";

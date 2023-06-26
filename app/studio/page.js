@@ -33,7 +33,7 @@ export default function Studio() {
               </div>
             </section>
 
-            <section className=" flex flex-col gap-10 lg:gap-20">
+            <section className=" flex flex-col lg:gap-20">
               <div className=" py-[80px] lg:pt-[120px] flex uppercase flex-col justify-center items-center h-full">
                 <p className="stdh0 w1010 text-center">
                   Infusing human touch to digital experiences
@@ -181,9 +181,9 @@ export default function Studio() {
               </div>
             </section>
 
-            <section className="lg:pt-24 pt-20">
-              <div className="lg:py-28 py-20 flex lg:flex-row flex-col items-center gap-10 xl:gap-20 ">
-                <div className="lg:max-w-md flex flex-col gap-10">
+            <section className="lg:pt-28 pt-20">
+              <div className="lg:py-28 py-20 flex lg:flex-row flex-col items-center gap-10 lg:gap-5 ">
+                <div className="lg:max-w-[495px] flex flex-col gap-10">
                   <div className="flex flex-col gap-4">
                     <h2 className="fmicrac text-[32px]">Our CLients</h2>
                     <div class="flex flex-col gap-[25.6px]">
@@ -237,10 +237,10 @@ export default function Studio() {
                         />
                       </div>
                       <div class="py-3 xl:py-[30px] lg:gap-2 gap-1 flex flex-col items-center bottom-0 left-0 right-0 bg-[#FFF9F3CC] text-[#1B1B1B] absolute">
-                        <span class="fmicrac text-[10px] lg:text-base">
+                        <span class="fmicrac text-[7.132px] lg:text-base">
                           Victoria Alli-Johnson
                         </span>
-                        <span class="text-[8px] lg:text-sm">
+                        <span class="text-[6.24px] lg:text-sm">
                           UI/UX/Product Designer
                         </span>
                       </div>
@@ -256,10 +256,10 @@ export default function Studio() {
                         />
                       </div>
                       <div class="py-3 xl:py-[30px] lg:gap-2 gap-1 flex flex-col items-center bottom-0 left-0 right-0 bg-[#FFF9F3CC] text-[#1B1B1B] absolute">
-                        <span class="fmicrac text-[10px] lg:text-base">
+                        <span class="fmicrac text-[7.132px] lg:text-base">
                           Howard Otuya
                         </span>
-                        <span class="text-[8px] lg:text-sm">Web Developer</span>
+                        <span class="text-[6.24px] lg:text-sm">Web Developer</span>
                       </div>
                     </div>
                     <div class="min-h-[180px] min-w-[175px] w-full h-full relative md:w-1/3 md:h-full border border-[#FFF9F3]">
@@ -273,10 +273,10 @@ export default function Studio() {
                         />
                       </div>
                       <div class="py-3 xl:py-[30px] lg:gap-2 gap-1 flex flex-col items-center bottom-0 left-0 right-0 bg-[#FFF9F3CC] text-[#1B1B1B] absolute">
-                        <span class="fmicrac text-[10px] lg:text-base">
+                        <span class="fmicrac text-[7.132px] lg:text-base">
                           Ademola Ogunlalu
                         </span>
-                        <span class="text-[8px] lg:text-sm">
+                        <span class="text-[6.24px] lg:text-sm">
                           Brand Designer
                         </span>
                       </div>
@@ -290,7 +290,7 @@ export default function Studio() {
 
         <div className="w-full">
           <div className="bodyCon">
-            <section className="pt-16 pb-20 lg:pb-[100px] lg:pt-20 flex flex-col justify-center items-center gap-4 lg:gap-10">
+            <section className="pt-16 pb-20 lg:py-[100px] flex flex-col justify-center items-center gap-4 lg:gap-10">
               <div className="flex uppercase flex-col justify-center items-center h-full">
                 <p className="bg-text6">Let&apos;s Talk</p>
                 <p className="hotbgt text-[32px] xl:absolute ">
@@ -301,12 +301,12 @@ export default function Studio() {
               <div class="max-w-[804px] text-center">
                 <p>
                   Currently building something and looking to outsource your
-                  design, product or development needs? <span class="hidden lg:block">Let&apos;s Talk</span>
+                  design, product or development needs? <span class="hidden lg:inline-block">Let&apos;s Talk</span>
                 </p>
               </div>
 
               <div class="flex pt-6 lg:pt-0 justify-center items-center">
-                <Link href="/studio" className="community-cta block w-auto">
+                <Link href="/studio" className="std-cta block w-auto">
                   Chat with us today
                 </Link>
               </div>
