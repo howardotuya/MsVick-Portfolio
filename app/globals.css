@@ -4,7 +4,8 @@
 @import url("../public/bl-melody-mono/style.css");
 @import url("../public/micrac/stylesheet.css");
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -18,6 +19,11 @@ body {
 
 .bodyCon {
   padding: 0 20px;
+  margin: 0 auto;
+}
+
+.bodyConS {
+  padding: 0 0 0 20px;
   margin: 0 auto;
 }
 p {
@@ -93,6 +99,12 @@ p {
   background-color: #1e1e1e;
   opacity: 0.8;
 }
+.stdmid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .textImg {
   position: absolute;
@@ -158,6 +170,14 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
+  line-height: 140%;
+  color: #fff9f3;
+}
+
+.hotbgt {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
   line-height: 140%;
   color: #fff9f3;
 }
@@ -415,7 +435,8 @@ hr {
   height: 38px;
 }
 
-.fop > p, .fop > a {
+.fop > p,
+.fop > a {
   font-family: "BL Melody Mono Medium";
   font-size: 12px;
   line-height: 14px;
@@ -527,7 +548,7 @@ hr {
 
 .pro-goc {
   padding: 64px 0;
-  margin-bottom:120px;
+  margin-bottom: 120px;
 }
 
 .pro-go > h2 {
@@ -557,25 +578,48 @@ hr {
   padding: 16px 24px;
 }
 
-@media only screen and (min-width: 767px) {
+.stdh0 {
+  text-align: center;
+  font-size: 28px;
+  font-family: "MicraC";
+  line-height: 140%;
+}
 
+.fmicrac {
+  font-family: "MicraC";
+}
+
+.stdbg-cont {
+  background-image: url('../public/stdbg.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bdfont {
+  font-family: "BL Melody Mono Regular";
+}
+
+@media only screen and (min-width: 767px) {
   .zBold {
     font-family: "BL Melody Mono Bold";
     padding: 22.5px 50px;
   }
-  
+
   .pro-goc {
     padding: 120px 0;
   }
-  
+
   .pro-go > h2 {
     text-align: center;
   }
-  
+
   .pro-go > p {
     text-align: center;
   }
-  
+
   .pb-120x {
     padding: 0 0 120px;
   }
@@ -611,7 +655,8 @@ hr {
     font-size: 20px;
     line-height: 28px;
   }
-  .fop > p, .fop > a {
+  .fop > p,
+  .fop > a {
     font-size: 14px;
     line-height: 17px;
   }
@@ -641,11 +686,8 @@ hr {
   .w-cl {
     height: 73px;
   }
-  .h2 {
-    font-size: 48px;
-  }
 
-  .bodyCon {
+  .bodyCon, .bodyConS {
     padding: 0 64px;
     max-width: 1440px;
   }
@@ -667,15 +709,27 @@ hr {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
+  .h2 {
+    font-size: 48px;
+  }
   
   .prm {
     max-width: 436px;
   }
-
+  .stdbg-cont {
+    background-size: 130%;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
+  .stdh0 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "MicraC";
+    line-height: 140%;
+  }
+  
   .py-120w {
     padding: 120px 0 80px;
   }
@@ -810,17 +864,23 @@ hr {
     height: 264px;
   }
 
-  .bodyCon {
+  .bodyCon, .bodyConS {
     padding: 0 112px;
     max-width: 1440px;
   }
 }
 
 @media only screen and (min-width: 1900px) {
+
+  .maxstd {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
   .naav {
     padding: 2.5rem 0 !important;
   }
-  .bodyCon {
+  .bodyCon, .bodyConS {
     padding: 0;
     max-width: 1440px;
   }
