@@ -217,7 +217,7 @@ export default function Studio() {
         <div className="w-full">
           <div className="bodyConS">
             <section className="overflow-hidden">
-              <div className="md:py-28 pt-20 pb-[72px] flex flex-col gap-10">
+              <div className="md:py-28 pt-20 pb-[72px] flex flex-col gap-6 lg:gap-10">
                 <div>
                   <h2 className="uppercase fmicrac text-base lg:text-[32px]">
                     You are in Good Hands
@@ -301,7 +301,7 @@ export default function Studio() {
               <div class="max-w-[804px] text-center">
                 <p>
                   Currently building something and looking to outsource your
-                  design, product or development needs? Let&apos;s Talk
+                  design, product or development needs? <span class="hidden lg:block">Let&apos;s Talk</span>
                 </p>
               </div>
 
