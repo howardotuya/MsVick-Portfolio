@@ -130,7 +130,7 @@ export default function Studio() {
           <div className="bodyCon">
             <section className="">
               <div class="fmicrac text-base leading-[160%] lg:text-[32px]">
-                <h2>Some works we've done recently</h2>
+                <h2>Some works we&apos;ve done recently</h2>
               </div>
 
               <div class="flex gap-5 md:gap-0 pt-10 flex-wrap">
