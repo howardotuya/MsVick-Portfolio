@@ -289,7 +289,7 @@ export default function Studio() {
         </div>
 
         <div className="w-full">
-          <div className="bodyConS">
+          <div className="bodyCon">
             <section className="pt-16 pb-20 lg:pb-[100px] lg:pt-20 flex flex-col justify-center items-center gap-4 lg:gap-10">
               <div className="flex uppercase flex-col justify-center items-center h-full">
                 <p className="bg-text6">Let&apos;s Talk</p>
