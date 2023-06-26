@@ -237,10 +237,10 @@ export default function Studio() {
                         />
                       </div>
                       <div class="py-3 xl:py-[30px] lg:gap-2 gap-1 flex flex-col items-center bottom-0 left-0 right-0 bg-[#FFF9F3CC] text-[#1B1B1B] absolute">
-                        <span class="fmicrac text-[7.132px] lg:text-base">
+                        <span class="fmicrac text-[8px] lg:text-base">
                           Victoria Alli-Johnson
                         </span>
-                        <span class="text-[6.24px] lg:text-sm">
+                        <span class="text-[8px] lg:text-sm">
                           UI/UX/Product Designer
                         </span>
                       </div>
@@ -256,10 +256,10 @@ export default function Studio() {
                         />
                       </div>
                       <div class="py-3 xl:py-[30px] lg:gap-2 gap-1 flex flex-col items-center bottom-0 left-0 right-0 bg-[#FFF9F3CC] text-[#1B1B1B] absolute">
-                        <span class="fmicrac text-[7.132px] lg:text-base">
+                        <span class="fmicrac text-[8px] lg:text-base">
                           Howard Otuya
                         </span>
-                        <span class="text-[6.24px] lg:text-sm">Web Developer</span>
+                        <span class="text-[8px] lg:text-sm">Web Developer</span>
                       </div>
                     </div>
                     <div class="min-h-[180px] min-w-[175px] w-full h-full relative md:w-1/3 md:h-full border border-[#FFF9F3]">
@@ -273,10 +273,10 @@ export default function Studio() {
                         />
                       </div>
                       <div class="py-3 xl:py-[30px] lg:gap-2 gap-1 flex flex-col items-center bottom-0 left-0 right-0 bg-[#FFF9F3CC] text-[#1B1B1B] absolute">
-                        <span class="fmicrac text-[7.132px] lg:text-base">
+                        <span class="fmicrac text-[8px] lg:text-base">
                           Ademola Ogunlalu
                         </span>
-                        <span class="text-[6.24px] lg:text-sm">
+                        <span class="text-[8px] lg:text-sm">
                           Brand Designer
                         </span>
                       </div>
