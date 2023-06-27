@@ -167,7 +167,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section class="flex flex-col gap-10 pt-20">
+          <section class="flex flex-col gap-10 pt-20 pb-5 lg:pb-20">
             <div>
               <h2 class="fmicrac text-2xl leading-[140%] lg:text-5xl lg:leading-[110%]">
                 FAQS
@@ -362,6 +362,14 @@ export default function Home() {
           </section>
         </div>
       </main>
+
+      <footer className="lg:pt-28 ">
+        <div className="pt-20 lg:pt-0">
+          <p className="footp">
+            (c) 2023 | Design by MsVick | Code by Howard Otuya
+          </p>
+        </div>
+      </footer>
     </>
   );
 }
