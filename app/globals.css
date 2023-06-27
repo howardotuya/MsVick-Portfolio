@@ -12,7 +12,7 @@ body {
 body {
   background: #1b1b1b;
   color: #fff9f3;
-  font-family: "BL Melody Mono Regular";
+  font-family: "BL Melody Mono Book";
   width: 100%;
   height: 100%;
 }
@@ -26,15 +26,14 @@ body {
   padding: 0 0 0 20px;
   margin: 0 auto;
 }
-p {
-  font-family: "BL Melody Mono Regular";
+p, li {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
 }
 .bodyW {
-  background: #fff !important;
+  background: #FFF9F3!important;
   color: #1b1b1b !important;
 }
 .bgbl {
@@ -607,7 +606,7 @@ hr {
 }
 
 .bdfont {
-  font-family: "BL Melody Mono Regular";
+  font-family: "BL Melody Mono Book";
 }
 
 .std-cta {
@@ -623,17 +622,29 @@ hr {
   font-size: 16px;
   font-family: 'BL Melody Mono Bold';
   padding: 16px 24px;
-  font-weight: 700;
   letter-spacing: -0.64px;
   background-color: #7B33D4;
 }
 
 .exp-text, .exp-text1, .exp-text11, .exp-text111 {
+  font-size: 20px;
   letter-spacing: -0.48px;
+  font-family: 'BL Melody Mono Medium';
 }
 
 .flex-00 {
   flex: 0 0 auto;
+}
+
+.blod {
+  font-family: 'BL Melody Mono Medium';
+}
+
+.mentcta {
+  padding: 8px 16px;
+  font-family: 'BL Melody Mono Bold';
+  background: #14a26b;
+  color: #FFF9F3;
 }
 
 @media only screen and (min-width: 767px) {
@@ -751,6 +762,7 @@ hr {
 
 .exp-text, .exp-text1, .exp-text11, .exp-text111 {
   font-size: 24px;
+  font-family: 'BL Melody Mono Book';
 }
   .prm {
     max-width: 436px;
