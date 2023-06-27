@@ -173,6 +173,14 @@ p {
   line-height: 140%;
   color: #fff9f3;
 }
+.otbgt24 {
+  font-family: "MicraC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff9f3;
+}
 
 .hotbgt {
   font-family: "MicraC";
@@ -590,8 +598,8 @@ hr {
 }
 
 .stdbg-cont {
-  background-image: url('../public/stdbg.jpg');
-  background-color: #1B1B1BB2;
+  background-image: url("../public/stdbg.jpg");
+  background-color: #1b1b1bb2;
   background-blend-mode: multiply;
   background-position: center top;
   background-size: cover;
@@ -607,6 +615,25 @@ hr {
   font-family: "BL Melody Mono Bold";
   padding: 16px 24px;
   letter-spacing: -0.64px;
+}
+
+.purple-cta {
+  color: #fff9f3;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'BL Melody Mono Bold';
+  padding: 16px 24px;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  background-color: #7B33D4;
+}
+
+.exp-text, .exp-text1, .exp-text11, .exp-text111 {
+  letter-spacing: -0.48px;
+}
+
+.flex-00 {
+  flex: 0 0 auto;
 }
 
 @media only screen and (min-width: 767px) {
@@ -694,7 +721,8 @@ hr {
     height: 73px;
   }
 
-  .bodyCon, .bodyConS {
+  .bodyCon,
+  .bodyConS {
     padding: 0 64px;
     max-width: 1440px;
   }
@@ -720,7 +748,10 @@ hr {
   .h2 {
     font-size: 48px;
   }
-  
+
+.exp-text, .exp-text1, .exp-text11, .exp-text111 {
+  font-size: 24px;
+}
   .prm {
     max-width: 436px;
   }
@@ -736,7 +767,7 @@ hr {
     font-family: "MicraC";
     line-height: 140%;
   }
-  
+
   .py-120w {
     padding: 120px 0 80px;
   }
@@ -836,6 +867,7 @@ hr {
   }
 
   .otbgt,
+  .otbgt24,
   .otbgtn {
     font-size: 32px;
     position: absolute;
@@ -871,14 +903,14 @@ hr {
     height: 264px;
   }
 
-  .bodyCon, .bodyConS {
+  .bodyCon,
+  .bodyConS {
     padding: 0 112px;
     max-width: 1440px;
   }
 }
 
 @media only screen and (min-width: 1900px) {
-
   .maxstd {
     max-width: 1440px;
     margin: 0 auto;
@@ -887,7 +919,8 @@ hr {
   .naav {
     padding: 2.5rem 0 !important;
   }
-  .bodyCon, .bodyConS {
+  .bodyCon,
+  .bodyConS {
     padding: 0;
     max-width: 1440px;
   }
