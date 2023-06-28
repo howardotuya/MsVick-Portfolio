@@ -93,7 +93,7 @@ export default function Community() {
                     </p>
                   </div>
                   <div className="flex">
-                    <Link href="#" className="community-cta block w-auto">
+                    <Link href="/mentorship" className="community-cta block w-auto">
                       Learn More
                     </Link>
                   </div>

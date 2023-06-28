@@ -167,14 +167,14 @@ export default function Home() {
             </div>
           </section>
 
-          <section class="flex flex-col gap-10 pt-20 pb-5 lg:pb-20">
+          <section class="flex flex-col gap-4 lg:gap-10 pt-20 pb-5 lg:pb-20">
             <div>
               <h2 class="fmicrac text-2xl leading-[140%] lg:text-5xl lg:leading-[110%]">
                 FAQS
               </h2>
             </div>
 
-            <div class="p-6 flex flex-col gap-10 border border-[#fff9f3]">
+            <div class="p-4 lg:p-6 flex flex-col gap-6 lg:gap-10 border border-[#fff9f3]">
               <div class="exp-cont flex flex-col gap-2 lg:gap-4">
                 <div
                   onClick={expand01}
@@ -241,10 +241,10 @@ export default function Home() {
                     follows;
                   </p>
                   <div class="flex flex-col lg:flex-row gap-6">
-                    <div class="bodyW lg:w-1/3 w-full justify-center flex flex-col gap-12 p-10">
+                    <div class="bodyW lg:w-1/3 w-full justify-center flex flex-col gap-12 p-6 lg:p-10">
                       <div class="flex flex-col gap-4">
                         <h2 class="fmicrac text-xl leading-[110%]">Basic</h2>
-                        <ul class="">
+                        <ul class="pl-4 list-disc">
                           <li>One-time 1hr free career consultation</li>
                           <li>Learning Plan</li>
                           <li>1hr one-on-one check in, once a month</li>
@@ -255,10 +255,10 @@ export default function Home() {
                         <button class="mentcta">For 6 months</button>
                       </div>
                     </div>
-                    <div class="bodyW lg:w-1/3 w-full justify-center flex flex-col gap-12 p-10">
+                    <div class="bodyW lg:w-1/3 w-full justify-center flex flex-col gap-12 p-6 lg:p-10">
                       <div class="flex flex-col gap-4">
                         <h2 class="fmicrac text-xl leading-[110%]">Standard</h2>
-                        <ul class="">
+                        <ul class="pl-4 list-disc">
                           <li>Everything in BASIC</li>
                           <li>30mins one-on-one session a week</li>
                           <li>Mock interview</li>
@@ -270,10 +270,10 @@ export default function Home() {
                         <button class="mentcta">For 6 months</button>
                       </div>
                     </div>
-                    <div class="bodyW lg:w-1/3 w-full justify-center flex flex-col gap-12 p-10">
+                    <div class="bodyW lg:w-1/3 w-full justify-center flex flex-col gap-12 p-6 lg:p-10">
                       <div class="flex flex-col gap-4">
                         <h2 class="fmicrac text-xl leading-[110%]">Premium</h2>
-                        <ul class="">
+                        <ul class="pl-4 list-disc">
                           <li>Everything in STANDARD</li>
                           <li>Collaborative mentorship</li>
                           <li>Career roadmapping</li>
@@ -306,7 +306,7 @@ export default function Home() {
                   </span>
                 </div>
                 <span class="hidden p-6 gap-2 flex-col expandcont01111">
-                  <ul class="list-disc leading-[160%]">
+                  <ul class="list-disc pl-4 leading-[160%]">
                     <li>
                       Regardless of what package you choose, you will have
                       access to one-on-one mentorship experience
@@ -331,7 +331,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <p class="uppercase">At the end of the cycle, you will,</p>
-                  <ul class="list-disc leading-[160%]">
+                  <ul class="list-disc pl-4 leading-[160%]">
                     <li>Receive a badge and certificate of completion</li>
                     <li>
                       Have a solid portfolio and qualities of a job-ready
@@ -347,7 +347,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div class="flex flex-col gap-6">
+            <div class="flex pt-6 lg:pt-0 flex-col gap-6">
               <p>
                 Still got some clarifications to make about the program? Send
                 MsVick a message.
